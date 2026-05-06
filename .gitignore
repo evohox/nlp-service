@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Project-specific ---
+
+# Локальное виртуальное окружение
+.venv/
+
+# .env файлы с секретами
+.env
+.env.local
+
+# Кеш HuggingFace моделей
+.cache/
+hf_cache/
+
+# Логи
+*.log
